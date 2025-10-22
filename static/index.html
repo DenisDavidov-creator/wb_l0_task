@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Информация о заказе</title>
+    <!-- Подключаем файл со стилями -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Поиск заказа по ID</h1>
+        <div class="search-box">
+            <!-- Поле для ввода ID заказа -->
+            <input type="text" id="orderUidInput" placeholder="Введите Order UID">
+            <!-- Кнопка для запуска поиска -->
+            <button id="searchButton">Найти</button>
+        </div>
+        
+        <!-- Место, где будет отображаться результат или ошибка -->
+        <div id="resultBox">
+            <pre id="orderData"></pre>
+        </div>
+    </div>
+
+    <!-- Подключаем файл со скриптом в самом конце -->
+    <script src="app.js"></script>
+</body>
+</html>
