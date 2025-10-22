@@ -22,7 +22,7 @@ func main() {
 	channel, sc := connectToStan()
 	defer sc.Close()
 
-	order := orders[0]
+	order := orders[4]
 
 	message, err := json.Marshal(order)
 	if err != nil {
